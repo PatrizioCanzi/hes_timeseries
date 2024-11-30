@@ -1,26 +1,29 @@
-# HES TimeSeries Module
+Module HES - Séries Temporelles
+Ce dépôt contient le matériel pour le module sur les séries temporelles.
 
-Cette repository possede le materiel pour le module pour les serie temporelles.
+Les données sont mises à disposition via ENTSO-E Transparency Platform :
 
-Les données sont mis à disposition depuis https://transparency.entsoe.eu/ 
-- Pour la consommation: Total Load - Day Ahead / Actual Actual Total Load [6.1.A] Day-ahead Total Load Forecast [6.1.B] 
-- Pour la generation: Actual Generation per Production Type Aggregated Generation per Type [16.1.B&C]
+- Consommation :
+      - Total Load - Day Ahead / Actual
+      - Actual Total Load [6.1.A]
+      - Day-ahead Total Load Forecast [6.1.B]
+- Production :
+      - Actual Generation per Production Type
+      - Aggregated Generation per Type [16.1.B&C]
 
 
-Structure:
+- Structure :
+
 - data
-    - curated_data
-    - load
-    - generation 
-
+-     curated_data
+-     load
+-     generation
 - data_exploration
-    - 00_Production_cleaning.ipynb --> notebook pour la generation
-    - 01_Timeseries_exploration.ipynb --> notebook pour l'exploration des timeseries 
-
+-     00_Production_cleaning.ipynb : Notebook pour le nettoyage des données de production.
+-     01_Timeseries_exploration.ipynb : Notebook pour l'exploration des séries temporelles.
 - forecastdemo
-   - Script utilisant scikit learn pour effectuer une prevision 
-
-- Presentation 
-    - Presentation du module 06/12/2024 
+-     Script utilisant scikit-learn pour effectuer une prévision.
+- Presentation
+-     Presentation du module prévue le 06/12/2024.
 
 
