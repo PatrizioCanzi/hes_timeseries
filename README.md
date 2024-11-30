@@ -9,20 +9,12 @@ Les données sont mises à disposition via ENTSO-E Transparency Platform :
 
 
 Structure:
-- data
+- data : curated_data , load , generation 
 
-    curated_data
-    load
-    generation 
+- data_exploration : 00_Production_cleaning.ipynb --> notebook pour la generation ,  01_Timeseries_exploration.ipynb --> notebook pour l'exploration des timeseries 
 
-- data_exploration
+- forecastdemo : Script utilisant scikit learn pour effectuer une prevision 
 
-    00_Production_cleaning.ipynb --> notebook pour la generation
-    01_Timeseries_exploration.ipynb --> notebook pour l'exploration des timeseries 
-- forecastdemo
-      Script utilisant scikit learn pour effectuer une prevision 
-- presentation 
-
-      Presentation utilisée
+- presentation : Presentation utilisée
 
 
