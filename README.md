@@ -9,14 +9,18 @@ Les données sont mis à disposition depuis https://transparency.entsoe.eu/
 
 Structure:
 - data
-    curated_data
-    load
-    generation 
+    - curated_data
+    - load
+    - generation 
 
 - data_exploration
-    00_Production_cleaning.ipynb --> notebook pour la generation
-    01_Timeseries_exploration.ipynb --> notebook pour l'exploration des timeseries 
+    - 00_Production_cleaning.ipynb --> notebook pour la generation
+    - 01_Timeseries_exploration.ipynb --> notebook pour l'exploration des timeseries 
+
 - forecastdemo
-   Script utilisant scikit learn pour effectuer une prevision 
+   - Script utilisant scikit learn pour effectuer une prevision 
+
+- Presentation 
+    - Presentation du module 06/12/2024 
 
 
